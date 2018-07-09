@@ -1,12 +1,12 @@
 title:  # Meng title
-  switch: true # Meng title switch
+  switch: false # Meng title switch
   visible: "(*´∇｀*) 被发现啦~" # State is visible text
   hidden:  "(つェ⊂)看不到我~" # State is hidden text
   with_default_title: true # with default title
   reset_time: 1000 # If state is visible , reset default title times(ms)
 
 cursor: # Meng cursor
-  switch: false# Meng cursor switch
+  switch: false # Meng cursor switch
   auto_url: "https://ooo.0o0.ooo/2017/06/12/593ea1901c930.png" # State is auto style
   pointer_url: "https://ooo.0o0.ooo/2017/06/12/593ea3612fd77.png" # State is pointer style
 
@@ -14,7 +14,7 @@ console: # Meng console info
   switch: true # Meng console info switch
   theme_info: true # output theme info
   text: "Copyright © 2018 Jekyll-Theme-MDUI" # text
-  color: "#fff" # text color
+  color: "#40c4ff" # text color
   background: "#448aff" # background color
 
 header: # Meng header color + theme-color
@@ -65,5 +65,5 @@ head_card:
   switch: true
   left_img: "https://i.loli.net/2018/07/09/5b42dba9d7659.jpg"
   left_text: "『 ·人与人在偶然之中创造相遇与别离· 』"
-  #right_img: "https://i.loli.net/2018/07/07/5b40cd582cc2d.jpg"
   offset_level: 2
+  #right_img: "https://i.loli.net/2018/07/07/5b40cd582cc2d.jpg"
