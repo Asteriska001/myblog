@@ -11,7 +11,7 @@ uiux:
    meng: True # meng
 
 background: 
-   purecolor: "#eeeeee" # the background color
+   purecolor: "rgba(255, 255, 255, 0.7)" # the background color
 
 img: 
    avatar: "https://i.loli.net/2018/07/07/5b40cd582cc2d.jpg" # your avatar
