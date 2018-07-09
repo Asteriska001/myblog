@@ -1,10 +1,10 @@
 title: "Stanla|记录学习点滴"
 description: "渗透|社工|蒟蒻"
-url: http://stanla.github.io/
+url: https://stanla.space
 baseurl: ""
 author: "Stanla"
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 
 plugins:
   - jekyll-sitemap
