@@ -1,24 +1,31 @@
-title: "Stanla|记录学习点滴"
-description: "渗透|社工|蒟蒻"
+---
+title: Stanla|记录学习点滴
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: 渗透|社工|蒟蒻
 url: https://stanla.space
-baseurl: ""
-author: "Stanla"
+baseurl: ''
+author: Stanla
 paginate: 5
 paginate_path: "/page:num/"
-
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-feed
 exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
-  - Gemfile
-  - Gemfile.lock
-  - jekyll-theme-mdui.gemspec
-  - LICENSE.txt
-  - README.md
-  - vendor
-  - docs
+- package.json
+- node_modules
+- gulpfile.js
+- Gemfile
+- Gemfile.lock
+- jekyll-theme-mdui.gemspec
+- LICENSE.txt
+- README.md
+- vendor
+- docs
