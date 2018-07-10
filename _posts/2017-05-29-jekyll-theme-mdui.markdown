@@ -1,11 +1,16 @@
 ---
+title: Jekyll Theme MDUI
+date: 2017-05-29 04:22:06 Z
+categories:
+- Living
+tags:
+- jekyll
+- theme
+- liquid
 layout: post
-title:  "Jekyll Theme MDUI"
-date:   2017-5-29 12:22:06 +0800
-categories: Living
-tags: jekyll theme liquid
 img: https://ooo.0o0.ooo/2017/05/29/592ba283bfac9.jpg
 ---
+
 A Jekyll theme based on MDUI.
 
 Material Design 设计，大部分配置使用 _data 文件，无需重启 `jekyll` 即可完成配置。

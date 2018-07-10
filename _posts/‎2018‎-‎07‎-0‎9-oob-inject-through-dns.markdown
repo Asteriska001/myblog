@@ -1,11 +1,12 @@
 ---
+title: OOB注入(DNS外传)
+date: 2018-02-13 11:28:13 Z
 layout: post
-title: "OOB注入(DNS外传)"
-date:  ‎2018-02-13 19‎:‎28‎:‎13 +0800
 categories: technology
 tags: mysql dns
 img: https://i.loli.net/2018/07/09/5b434692472ed.png
 ---
+
 #关于mysql OOB注入的研究
 ## 应用场景：
 

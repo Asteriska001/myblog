@@ -1,6 +1,7 @@
 ---
 layout: compress
 ---
+
 var CACHE_NAME = 'madhur-cache-v1';
 var urlsToCache = [
     'https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js',

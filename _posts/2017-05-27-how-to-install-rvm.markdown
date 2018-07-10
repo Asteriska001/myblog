@@ -1,9 +1,12 @@
 ---
+title: 如何安装 RVM 和 Ruby？
+date: 2017-05-27 06:19:06 Z
+categories:
+- technology
+tags:
+- ruby
+- rvm
 layout: post
-title:  "如何安装 RVM 和 Ruby？"
-date:   2017-05-27 14:19:06 +0800
-categories: technology
-tags: ruby rvm
 img: https://ooo.0o0.ooo/2017/05/27/59292241a506c.jpg
 ---
 
